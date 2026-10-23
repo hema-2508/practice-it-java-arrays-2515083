@@ -1,6 +1,13 @@
 public class App {
   
   public static void printTriangle(Object[] arr) {
+    for(int i=0; i<arr.length; i++){
+      int j=0;
+      for(;j<=i;j++){
+        System.out.print(arr[j]+ " ");
+      }
+      System.out.println();   
+        }
 
  }
     
